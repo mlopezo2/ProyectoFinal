@@ -21,3 +21,4 @@ st.write("El gesto de la mano en forma de puño enfrente de la cámara encender�
 
 st.write("En la página de Luces y Puerta podrás cambiar la posición de una puerta a través de comandos de voz. Al mencionar la frase Pink on la puerta se abrirá y será indicado por una luz rosada. Al mencionar la frase Blue on la puerta se cerrará y será indicado por una luz azul.")
 
+st.header("Ingresa a la siguiente página para observar los resultados de cada interacción: https://wokwi.com/projects/398058058755600385")
