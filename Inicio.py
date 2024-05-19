@@ -14,3 +14,8 @@ st.image(image2, caption="Dedo apuntando")
 
 st.write("El gesto de dedo apuntando enfrente de la cámara encenderá la luz rosada.")
 
+image3 = Image.open("PuñoMano.jpg")
+st.image(image3, caption="Mano en puño")
+
+st.write("El gesto de la mano en forma de puño enfrente de la cámara encenderá la luz azul.")
+
