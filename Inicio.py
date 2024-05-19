@@ -9,3 +9,6 @@ st.image(image, caption="Luces de interior")
 st.header("¿Cómo puedo utilizar el asistente de control del hogar?")
 st.write("En la página de Luces podrás cambiar el color de las luces a través de dos gestos:")
 
+image2 = Image.open("DedoApuntando.jpg")
+st.image(image2, caption="Dedo apuntando")
+
