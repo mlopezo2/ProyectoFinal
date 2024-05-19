@@ -12,3 +12,5 @@ st.write("En la página de Luces podrás cambiar el color de las luces a través
 image2 = Image.open("DedoApuntando.jpg")
 st.image(image2, caption="Dedo apuntando")
 
+st.write("El gesto de dedo apuntando enfrente de la cámara encenderá la luz rosada.")
+
