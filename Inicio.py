@@ -7,5 +7,3 @@ image = Image.open("Lights.jpg")
 st.header("¿Cómo puedo utilizar el asistente de control del hogar?")
 st.write("En la página de Luces podrás cambiar el color de las luces a través de dos gestos:")
 
-#image2 = Image.open("DedoApuntando.jpg")
-
