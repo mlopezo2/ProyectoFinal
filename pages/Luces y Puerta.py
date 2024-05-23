@@ -29,7 +29,8 @@ client1.on_message = on_message
 
 
 st.title("Control de luces y puerta")
-st.subheader("Sigue las instrucciones de la página de inicio para activar por voz el movimiento de la puerta.")
+st.subheader("Sigue las instrucciones para activar por voz el movimiento de la puerta.")
+st.write("Podrás cambiar la posición de una puerta a través de comandos de voz. Al mencionar la frase Pink on la puerta se abrirá y será indicado por una luz rosada. Al mencionar la frase Blue on la puerta se cerrará y será indicado por una luz azul.")
 
 image = Image.open('Lucesrosayazul.jpg')
 
@@ -84,4 +85,4 @@ if result:
         pass
 
 
-st.write("Podrás cambiar la posición de una puerta a través de comandos de voz. Al mencionar la frase Pink on la puerta se abrirá y será indicado por una luz rosada. Al mencionar la frase Blue on la puerta se cerrará y será indicado por una luz azul.")
+
