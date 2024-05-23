@@ -33,7 +33,7 @@ client1.connect(broker,port)
 model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-st.subtitle("Control de luces")
+st.subheader("Control de luces")
 
 img_file_buffer = st.camera_input("Toma una Foto siguiendo las indicaciones de gestos planteadas en la página de inicio.")
 
