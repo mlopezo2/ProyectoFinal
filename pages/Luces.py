@@ -1,5 +1,4 @@
 import streamlit as st
-st.title("Segunda página")
 
 import paho.mqtt.client as paho
 import time
@@ -20,7 +19,8 @@ def on_message(client, userdata, message):
     message_received=str(message.payload.decode("utf-8"))
     st.write(message_received)
 
-        
+st.title("Control de luces")
+st.subheader("Toma una foto siguiendo las indicaciones de gestos planteadas en la página de inicio.")      
 
 
 broker="broker.mqttdashboard.com"
@@ -33,9 +33,8 @@ client1.connect(broker,port)
 model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-st.subheader("Control de luces")
 
-img_file_buffer = st.camera_input("Toma una Foto siguiendo las indicaciones de gestos planteadas en la página de inicio.")
+img_file_buffer = st.camera_input("Activa tu cámara y toma una foto.")
 
 if img_file_buffer is not None:
     # To read image file buffer with OpenCV:
