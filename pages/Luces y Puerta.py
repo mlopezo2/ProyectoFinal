@@ -82,3 +82,6 @@ if result:
         os.mkdir("temp")
     except:
         pass
+
+
+st.write("Podrás cambiar la posición de una puerta a través de comandos de voz. Al mencionar la frase Pink on la puerta se abrirá y será indicado por una luz rosada. Al mencionar la frase Blue on la puerta se cerrará y será indicado por una luz azul.")
