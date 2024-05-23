@@ -31,7 +31,7 @@ client1.on_message = on_message
 st.title("Control de luces y puerta")
 st.subheader("Sigue las instrucciones de la página de inicio para activar por voz el movimiento de la puerta.")
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('Lucesrosayazul.jpg')
 
 st.image(image, width=200)
 
