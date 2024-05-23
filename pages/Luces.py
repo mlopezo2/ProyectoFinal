@@ -22,6 +22,19 @@ def on_message(client, userdata, message):
 st.title("Control de luces")
 st.subheader("Toma una foto siguiendo las indicaciones de gestos planteadas en la página de inicio.")      
 
+st.header("¿Cómo puedo utilizar el asistente de control del hogar?")
+st.write("Podrás cambiar el color de las luces a través de dos gestos:")
+
+image2 = Image.open("DedoApuntando.jpg")
+st.image(image2, caption="Dedo apuntando")
+
+st.write("El gesto de dedo apuntando enfrente de la cámara encenderá la luz rosada.")
+
+image3 = Image.open("PuñoMano.jpg")
+st.image(image3, caption="Mano en puño")
+
+st.write("El gesto de la mano en forma de puño enfrente de la cámara encenderá la luz azul.")
+
 
 broker="broker.mqttdashboard.com"
 port=1883
